@@ -1,0 +1,11 @@
+{
+	"name" : "Laugh Track",
+	"description" : "",
+	"author" : "Eightan",
+	"version" : "1",
+	"blt_version" : 2,
+	"color" : "0.15 0.15 0.15",
+	"image" : "_icon.png",
+	"supermod_definition" : "laugh.xml",
+	"contact": "\n https://steamcommunity.com/id/Eightan/",
+}

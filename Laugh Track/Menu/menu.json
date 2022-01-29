@@ -1,0 +1,45 @@
+{
+	"menu_id": "laugh_track_menu",
+	"parent_menu_id": "blt_options",
+	"title": "laugh_track_title",
+    "description": "laugh_track_desc",
+    "back_callback" : "LaughtrackSave",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "custody_laugh_toggle",
+			"title": "custody_laugh_title",
+			"description": "custody_laugh_desc",
+			"callback": "callback_custody_laugh",
+			"value": "custody_laugh",
+			"default_value": true
+        },
+	    {
+			"type": "toggle",
+			"id": "downed_laugh_toggle",
+			"title": "downed_laugh_title",
+			"description": "downed_laugh_desc",
+			"callback": "callback_downed_laugh",
+			"value": "downed_laugh",
+			"default_value": true
+	    },
+	    {
+			"type": "toggle",
+			"id": "tased_laugh_toggle",
+			"title": "tased_laugh_title",
+			"description": "tased_laugh_desc",
+			"callback": "callback_tased_laugh",
+			"value": "tased_laugh",
+			"default_value": true
+		},
+	    {
+			"type": "toggle",
+			"id": "cuffed_laugh_toggle",
+			"title": "cuffed_laugh_title",
+			"description": "cuffed_laugh_desc",
+			"callback": "callback_cuffed_laugh",
+			"value": "cuffed_laugh",
+			"default_value": true
+		}
+	]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mod>
+	<!-- Main code -->
+    <hooks script_path="lua/">
+		<group hook_id="core/lib/utils/coreapp">
+            <pre script_path="Setup.lua"/>
+        </group>
+	    <group hook_id="lib/">
+			<group :hook_id="managers/">
+                <post :hook_id="menumanager" :script_path="Menu.lua" />
+       
+			    <group :hook_id="hud/">  
+		            <post :hook_id="hudplayercustody" :script_path="LaughTrack.lua"/>
+			    </group>
+            </group>
+			<group :hook_id="units/beings/player/playerdamage">
+			    <post :script_path="LaughTrack.lua"/>
+		    </group>
+        </group>
+    </hooks>
+</mod>
