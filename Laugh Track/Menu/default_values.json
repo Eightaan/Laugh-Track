@@ -2,5 +2,10 @@
 	"custody_laugh" : true,
 	"cuffed_laugh" : true,
 	"downed_laugh" : true,
-	"tased_laugh" : true
+	"tased_laugh" : true,
+	"custody_laugh_track" : 1,
+	"downed_laugh_track" : 1,
+	"tased_laugh_track" : 1,
+	"cuffed_laugh_track" : 1.
+	"theme_track" : true
 }

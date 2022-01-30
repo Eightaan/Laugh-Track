@@ -15,6 +15,22 @@
 			"default_value": true
         },
 	    {
+			"type" : "multiple_choice",
+			"id" : "custom_custody_track_multiple_choice",
+			"title" : "custom_custody_track_title",
+			"description" : "custom_custody_track_desc",
+			"callback" : "callback_custody_laugh_track",
+			"items" : [
+				"default_laugh",
+				"cardib"
+			],
+			"value" : "custody_laugh_track"
+		},
+		{
+			"type": "divider",
+			"size": 10
+		},
+		{
 			"type": "toggle",
 			"id": "downed_laugh_toggle",
 			"title": "downed_laugh_title",
@@ -22,6 +38,22 @@
 			"callback": "callback_downed_laugh",
 			"value": "downed_laugh",
 			"default_value": true
+		},
+	    {
+			"type" : "multiple_choice",
+			"id" : "custom_downed_track_multiple_choice",
+			"title" : "custom_downed_track_title",
+			"description" : "custom_downed_track_desc",
+			"callback" : "callback_downed_laugh_track",
+			"items" : [
+				"default_laugh",
+				"cardib"
+			],
+			"value" : "downed_laugh_track"
+		},
+		{
+			"type": "divider",
+			"size": 10
 	    },
 	    {
 			"type": "toggle",
@@ -33,12 +65,53 @@
 			"default_value": true
 		},
 	    {
+			"type" : "multiple_choice",
+			"id" : "custom_tased_track_multiple_choice",
+			"title" : "custom_tased_track_title",
+			"description" : "custom_downed_track_desc",
+			"callback" : "callback_tased_laugh_track",
+			"items" : [
+				"default_laugh",
+				"cardib"
+			],
+			"value" : "tased_laugh_track"
+		},
+		{
+			"type": "divider",
+			"size": 10
+		},
+	    {
 			"type": "toggle",
 			"id": "cuffed_laugh_toggle",
 			"title": "cuffed_laugh_title",
 			"description": "cuffed_laugh_desc",
 			"callback": "callback_cuffed_laugh",
 			"value": "cuffed_laugh",
+			"default_value": true
+		},
+	    {
+			"type" : "multiple_choice",
+			"id" : "custom_cuffed_track_multiple_choice",
+			"title" : "custom_cuffed_track_title",
+			"description" : "custom_cuffed_track_desc",
+			"callback" : "callback_cuffed_laugh_track",
+			"items" : [
+				"default_laugh",
+				"cardib"
+			],
+			"value" : "cuffed_laugh_track"
+		},
+		{
+			"type": "divider",
+			"size": 10
+		},
+	    {
+			"type": "toggle",
+			"id": "theme_track_toggle",
+			"title": "theme_track_title",
+			"description": "theme_track_desc",
+			"callback": "callback_theme_track",
+			"value": "theme_track",
 			"default_value": true
 		}
 	]

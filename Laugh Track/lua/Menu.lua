@@ -7,6 +7,18 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_laughtrack", function
 	MenuCallbackHandler.callback_downed_laugh = function(self, item)
         LaughTrack._data.downed_laugh = item:value() == "on"
     end
+	MenuCallbackHandler.callback_custody_laugh_track = function(self, item)
+        LaughTrack._data.custody_laugh_track = item:value()
+    end
+	MenuCallbackHandler.callback_downed_laugh_track = function(self, item)
+        LaughTrack._data.downed_laugh_track = item:value()
+    end
+	MenuCallbackHandler.callback_tased_laugh_track = function(self, item)
+        LaughTrack._data.tased_laugh_track = item:value()
+    end
+	MenuCallbackHandler.callback_cuffed_laugh_track = function(self, item)
+        LaughTrack._data.cuffed_laugh_track = item:value()
+    end
 	MenuCallbackHandler.callback_tased_laugh = function(self, item)
         LaughTrack._data.tased_laugh = item:value() == "on"
     end
@@ -15,6 +27,9 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_laughtrack", function
     end
 	MenuCallbackHandler.callback_cuffed_laugh = function(self, item)
         LaughTrack._data.cuffed_laugh = item:value() == "on"
+    end
+	MenuCallbackHandler.callback_theme_track = function(self, item)
+        LaughTrack._data.theme_track = item:value() == "on"
     end
     MenuCallbackHandler.LaughtrackSave = function(this, item)
         LaughTrack:Save()

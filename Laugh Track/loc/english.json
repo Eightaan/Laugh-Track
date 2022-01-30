@@ -3,10 +3,22 @@
 	"laugh_track_desc" : "",
 	"custody_laugh_title" : "Custody",
 	"custody_laugh_desc" : "Laugh track when getting into custody"
+	"custom_custody_track_title" : "Custody track",
+	"custom_custody_track_desc" : "",
+	"custom_downed_track_title" : "Downed track",
+	"custom_downed_track_desc" : "",
+	"custom_tased_track_title" : "Electrocuted track",
+	"custom_tased_track_desc" : "",
+	"custom_cuffed_track_title" : "Handcuffed track",
+	"custom_cuffed_track_desc" : "",
+	"default_laugh" : "Sitcom",
+	"cardib" : "Cardi b",
 	"tased_laugh_title" : "Electrocuted",
 	"tased_laugh_desc" : "Laugh track when being electrocuted",
 	"downed_laugh_title" : "Downed",
 	"downed_laugh_desc" : "Laugh track when being downed",
 	"cuffed_laugh_title" : "Handcuffed",
-	"cuffed_laugh_desc" : "Laugh track when handcuffed"
+	"cuffed_laugh_desc" : "Laugh track when handcuffed",
+	"theme_track_title" : "Seinfeld theme chance",
+	"theme_track_desc" : "Adds a small chance for the seinfeld theme to play with the laugh track."
 }
