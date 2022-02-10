@@ -2,7 +2,7 @@
 	"name" : "Laugh Track",
 	"description" : "Get laughed at!",
 	"author" : "Eightan",
-	"version" : "2",
+	"version" : "3.0",
 	"blt_version" : 2,
 	"color" : "0.15 0.15 0.15",
 	"image" : "_icon.png",

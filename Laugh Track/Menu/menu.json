@@ -22,7 +22,8 @@
 			"callback" : "callback_custody_laugh_track",
 			"items" : [
 				"default_laugh",
-				"cardib"
+				"cardib",
+				"curb"
 			],
 			"value" : "custody_laugh_track"
 		},
@@ -47,7 +48,8 @@
 			"callback" : "callback_downed_laugh_track",
 			"items" : [
 				"default_laugh",
-				"cardib"
+				"cardib",
+				"curb"
 			],
 			"value" : "downed_laugh_track"
 		},
@@ -72,7 +74,8 @@
 			"callback" : "callback_tased_laugh_track",
 			"items" : [
 				"default_laugh",
-				"cardib"
+				"cardib",
+				"curb"
 			],
 			"value" : "tased_laugh_track"
 		},
@@ -97,7 +100,8 @@
 			"callback" : "callback_cuffed_laugh_track",
 			"items" : [
 				"default_laugh",
-				"cardib"
+				"cardib",
+				"curb"
 			],
 			"value" : "cuffed_laugh_track"
 		},
